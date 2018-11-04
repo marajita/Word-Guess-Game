@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Word-Guess-Game </title>
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Guess the flower names!</h1>
+        </div>
+        <br>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <p>Press SPACE key to get started!!</p>
+                    <p id="toStart"></p>
+                </div>
+                <br>
+
+                <div class="row">
+                    <p>Wins: &nbsp;</p>
+                    <p id="wins"></p>
+                </div>
+
+                <div class="row">
+                    <p>Current words: &nbsp;</p>
+                    <p id="hyphenArrayID"> </p>
+                </div>
+
+                <div class="row">
+                    <p>Number of Guesses remaining: &nbsp;</p>
+                    <p id="remGuess">8</p>
+                </div>
+
+                <div class="row">
+                    <p>Letters already guessed: &nbsp;</p>
+                    <p id="userGuessed"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="resultClass">
+            <p id="resultID"></p>
+        </div>
+    </div>
+
+    <audio id="winAudio">
+        <source src="assets/images/win.wav" type="audio/wav">
+    </audio>
+
+    <audio id="lostAudio">
+        <source src="assets/images/fail.wav" type="audio/wav">
+    </audio>
+
+
+</body>
+
+</html>

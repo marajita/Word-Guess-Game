@@ -1,0 +1,31 @@
+
+
+body{
+    background-image: url("../images/lilies.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.container{
+    padding-top:125px;
+    font-size: 23px;
+    color: #FFE4B5;
+    font-family:"Times New Roman, Times, serif";
+}
+
+#resultID{
+    font-size: 40px;;
+    color:#FFD700;
+}
+
+.heading{
+    font-size: -webkit-xxx-large;
+    color:#6B8E23;
+    
+}
+
+.panel-body{
+    padding-left: 35px;
+}
